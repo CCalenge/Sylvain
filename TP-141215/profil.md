@@ -4,7 +4,7 @@
 
 Créer la page **profil.php**, et y afficher les informations suivantes
 
-- un <h1> "Bienvenue " + login de l'utilisateur
+- un `<h1>` "Bienvenue " + login de l'utilisateur
 - une zone "Vos informations"
   - Afficher "Votre profil est " + public ou privé selon le champ `public` en BDD
   - Afficher l'avatar de l'utilisateur (rappelez-vous qu'on a renseigné une image par défaut avatar.jpg)
