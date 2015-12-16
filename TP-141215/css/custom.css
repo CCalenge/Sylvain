@@ -67,16 +67,16 @@ input {
 }
 
 .profil header {
-	 text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
 }
 
 .profil header div {
 	vertical-align: top;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
 }
 .profil header div.avatar img {
 	border: 1px solid #dcdcdc;
@@ -84,10 +84,59 @@ input {
 
 .profil header div.welcome {
 	font-size: 1.5em;
+	text-align: center;
+}
+
+.profil header div.welcome span {
+	display: block;
+	font-size: 0.7em;
 }
 .profil header .stretch {
 	width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
+	display: inline-block;
+	font-size: 0;
+	line-height: 0
+}
+
+#popup {
+	display: none;
+}
+
+.content, aside {
+	display: inline-block;
+}
+
+.content {
+	width: 69%;
+}
+aside {
+	width: 30%;
+	border: solid 1px #707070;
+	box-shadow: 0 0 5px 1px #969696;
+}
+
+
+.progressBar {
+	width: 200px;
+	height: 22px;
+	border: 1px solid #111;
+	background-color: #969696;
+}
+.progressBar div {
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+	width: 0;
+}
+
+.progressBar#hl div {
+	background-color: #38FF4D;
+}
+.progressBar#hc div {
+	background-color: #FF7F2B;
+}
+
+.progressBar#gc div {
+	background-color: #50A8FF;
 }
